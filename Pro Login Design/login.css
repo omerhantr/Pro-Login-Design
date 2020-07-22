@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    color: black;
+    font-family: 'Roboto Black';
+
+
+}
+
+
+.login > h1 {
+    margin: 20px 20px;
+}
+
+.login a:link {
+    color: red;
+    font-size: 1em;
+}
+
+.login a:hover {
+    color: black;
+    font-size: 1.3em;
+    transition: 1s;
+    text-decoration: none;
+}
+
+
+.login {
+    background-color: rgba(255, 165, 0, 0.8);
+
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: 1.5s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+.login:hover {
+    background-color: rgba(255, 165, 0, 0.8);
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+
+}
+
+
+.login input[type="text"],
+.login input[type="password"] {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 250px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 0.5s;
+    filter: blur(1px);
+
+
+
+
+}
+
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border-left: 60px solid black;
+    filter: blur(0px);
+    filter: brightness(20%);
+
+
+
+
+}
+
+.login input[type="button"] {
+    background: none;
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 0.8s;
+    width: 40%;
+
+}
+
+.login input[type="button"]:hover {
+    background: black;
+    color: orange;
+    width: 50%;
+    transition: 0.5s;
+    border: solid #2f2519;
+}
